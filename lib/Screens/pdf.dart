@@ -31,14 +31,6 @@ class _PdfScreenState extends State<PdfScreen> {
                   width: 1.5,
                 )
             ),
-            child: pd.Row(
-                mainAxisAlignment: pd.MainAxisAlignment.spaceEvenly,
-                children: [
-                  pd.Text('${productName[index]}',style: const pd.TextStyle(fontSize: 20),),
-                  pd.Text('${productQty[index]}',style: const pd.TextStyle(fontSize: 20),),
-                  pd.Text('${productAmount[index]}',style: const pd.TextStyle(fontSize: 20),),
-                ]
-            ),
           ), itemCount: productName.length);
         },
       ),
