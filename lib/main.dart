@@ -9,7 +9,7 @@ void main() {
   runApp(
     MaterialApp(
       theme: ThemeData.dark(useMaterial3: true),
-       initialRoute: 'home',
+       initialRoute: 'cart',
       routes: {
         '/': (context) => SplashScreen(),
         'home': (context) => HomeScreen(),
